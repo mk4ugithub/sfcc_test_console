@@ -14,34 +14,23 @@ SFCC Developers Core - SFCC Cartridge
 
 Installation
 ---
-
-[![Download](https://img.shields.io/badge/Download-blue.svg?logo=github&style=for-the-badge)](https://github.com/sfccdevops/sfcc_developers_core/releases/latest)
-
 1. Unzip and Rename the folder to `sfcc_developers_core`
 2. Move `sfcc_developers_core` into the root of your SFCC Project
 3. Add `sfcc_developers_core` to project or global `.gitignore`
 4. Add `sfcc_dev_console` & `sfcc_dev_tools` to Business Manager Storefront `Cartridges` Path
 5. Review Usage Instructions in each Cartridges README.md
 
-Contributing
----
-
-> Interested in making this tool better?  Fork this Repository and we'll gladly accept Pull Requests.
 
 #### Developer Setup:
 
 ```bash
-git clone https://github.com/sfccdevops/sfcc_developers_core.git
+git clone https://github.com/mk4ugithub/sfcc_test_console.git
 cd sfcc_developers_core
 npm install
 npm run dev # one time build for development
 npm run watch # watch for changes and build for development
 npm run build # one time build for production
 ```
-
-Once you have something you would like to share, check out our Contribution Guide.
-
-[![Contribution Guide](https://img.shields.io/badge/Contribution_Guide-EEEEEE.svg?logo=github&logoColor=black&style=for-the-badge)](https://github.com/sfccdevops/sfcc_developers_core/blob/develop/.github/CONTRIBUTING.md)
 
 Disclaimer
 ---
